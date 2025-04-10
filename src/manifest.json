@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Padlock 挂锁",
+    "author": "Chairman",
+    "version": "1.0",
+    "description": "🔒 Flexible password generator with salt option. 带加盐功能的灵活密码生成器。",
+    "icons": {
+        "48": "icons/icon48.png"
+    },
+    "action": {
+        "default_icon": "icons/icon48.png",
+        "default_title": "Padlock 挂锁",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": ["clipboardWrite", "storage"],
+    "host_permissions": [],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "padlockguasuo@domain.com",
+            "strict_min_version": "91.0",
+            "update_url": "https://raw.githubusercontent.com/ChineseOnChain/padlock/refs/heads/main/updates.json"
+        }
+    }
+}
